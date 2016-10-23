@@ -1,0 +1,65 @@
+body{
+	font-family: Helvetica;
+	background-image: url("breakdown-background.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+a:visited{
+	color: lightgray;
+}
+
+nav#nav{
+	font-size: 1em;
+	background-color: #4c0000;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+table{
+	border-collapse: collapse;
+}
+table, th, td {
+	text-align: center;
+	border: 1px solid black;
+}
+
+tr:hover {
+	background-color: lightgray;
+}
+
+h1.welcome-title{
+	text-align: center;
+	font-family: Times;
+	font-variant: small-caps;
+}
+
+section.breakdown-side1{
+	display: inline-block;
+	width: 47%;
+	vertical-align: top;
+}
+
+section.breakdown-side2{
+	display: inline-block;
+	width: 47%;
+}
+
+section.analysis{
+	color: darkgray;
+}
+
+img.movie-image{
+	width: 900px;
+	display: block;
+	margin: auto;
+}
+
+@media screen and (max-width: 500px) {
+	body {
+		background-color: black;
+		font-family: Helvetica;
+		font-size: 50%;
+		color: darkgray;
+	}
+}
