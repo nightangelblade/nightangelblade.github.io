@@ -55,6 +55,11 @@ img.movie-image{
 	margin: auto;
 }
 
+img.breakdown-image{
+	width: 600px;
+	display: block;
+}
+
 @media screen and (max-width: 500px) {
 	body {
 		background-color: black;
