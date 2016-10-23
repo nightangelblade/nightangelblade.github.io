@@ -1,18 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+	<link rel="stylesheet" type="text/css" href="styles.css">
 	<title>Series Breakdown</title>
+
 </head>
 
-<body>
+<body class="breakdown">
 
-<h1>Series Breakdown</h1>
+<h1 class="welcome-title">Series Breakdown</h1>
 
-<nav><a href="index.html">Home</a> | <a href="breakdown.html">Series Breakdown</a></nav>
+<nav id="nav"><a href="index.html">Home</a> | <a href="breakdown.html">Series Breakdown</a></nav>
 
+<section class="breakdown-side1">
 <img src="Images/Assassins_Creed_Syndicate_12.jpg" alt="Assassin's Creed Wallpaper" width="600px" />
 <p><em>Source: <a href="http://wallpapersdsc.net/games/assassins-creed-syndicate-1557.html">WALLPAPERSDSC.NET</a></em></p>
+</section>
+
+<section class="breakdown-side2">
 <p>Assassin's Creed encompasses a lot of different time periods, but the main story is found in the main series:</p>
+
 <table>
 	<tr>
 		<th>Name</th>
@@ -67,17 +75,25 @@
 </table>
 
 <p>There are other games in the franchise, but most of them run parallel or are spin-offs from the main series.</p>
+</section>
 
 <form action="success.html">
-<div><label>Name:</label><input type="text" name="name"></div>
-<div><label>Email:</label><input type="email" name="email"></div>
-<div><label>Have you heard of Assassin's Creed before?:</label>
-<select name="heardof">
-<option value="Yes">Yes</option>
-<option value="No">No</option>
-</select>
-</div>
-<div><button>Submit</button></div>
+	<div>
+		<label>Name: </label><input type="text" name="name">
+	</div>
+	<div>
+		<label>Email: </label><input type="email" name="email">
+	</div>
+	<div>
+		<label>Have you heard of Assassin's Creed before?: </label>
+		<select name="heardof">
+			<option value="Yes">Yes</option>
+			<option value="No">No</option>
+		</select>
+	</div>
+	<div>
+		<button>Submit</button>
+	</div>
 </form>
 
 </body>
